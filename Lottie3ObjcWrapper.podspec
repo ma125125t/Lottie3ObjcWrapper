@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = 'A wrapper for using Lottie3 in Objective-C project'
   s.description      = <<-DESC
-
+  A wrapper for using Lottie3 in Objective-C project
                        DESC
 
   s.homepage         = 'https://github.com/FFFang/Lottie3ObjcWrapper'
