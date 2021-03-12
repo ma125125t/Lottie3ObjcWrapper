@@ -7,7 +7,21 @@
 
 ## Example
 
+Lottie3 is rewritten in Swift,so it's not possible to directly use Lottie3 and its new feature in Objective-C project.
+
+This lib is to wrap native Lottie3 class with an `@objc` keyword,so we can use indirectly.
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+```
+@import Lottie3ObjcWrapper;
+
+LottieAnimationView *loader = [[LottieAnimationView alloc] initWithFrame:CGRectMake(0, 100, 300, 300)];
+loader.loop = false;
+[loader loadAnimationWithName:@"demo"];
+[loader playWithCompletion:nil];
+[self.view addSubview:loader];
+```
 
 ## Requirements
 
