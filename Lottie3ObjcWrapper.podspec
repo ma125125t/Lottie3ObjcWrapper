@@ -9,16 +9,9 @@
 Pod::Spec.new do |s|
   s.name             = 'Lottie3ObjcWrapper'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Lottie3ObjcWrapper.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.summary          = 'A wrapper for using Lottie3 in Objective-C project'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+
                        DESC
 
   s.homepage         = 'https://github.com/FFFang/Lottie3ObjcWrapper'
@@ -27,7 +20,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'FFFang' => 'fang@soulapp.cn' }
   s.source           = { :git => 'https://github.com/FFFang/Lottie3ObjcWrapper.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.swift_version = '5.0'
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'Lottie3ObjcWrapper/Classes/**/*'
