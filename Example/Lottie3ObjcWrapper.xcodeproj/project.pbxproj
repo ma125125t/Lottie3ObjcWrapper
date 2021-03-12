@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3287B8B425FB7BAC005460B1 /* demo.json in Resources */ = {isa = PBXBuildFile; fileRef = 3287B8B325FB7BAB005460B1 /* demo.json */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,10 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B1B4E9D7465D4E6BC338004 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		248699C476E4079865B31375 /* Lottie3ObjcWrapper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Lottie3ObjcWrapper.podspec; path = ../Lottie3ObjcWrapper.podspec; sourceTree = "<group>"; };
+		0B1B4E9D7465D4E6BC338004 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		248699C476E4079865B31375 /* Lottie3ObjcWrapper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Lottie3ObjcWrapper.podspec; path = ../Lottie3ObjcWrapper.podspec; sourceTree = "<group>"; };
 		2B02AF46ADBE91AD121CD4AD /* Pods-Lottie3ObjcWrapper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie3ObjcWrapper_Tests.release.xcconfig"; path = "Target Support Files/Pods-Lottie3ObjcWrapper_Tests/Pods-Lottie3ObjcWrapper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		30ABD37E0F1DB20FA93DDF11 /* Pods-Lottie3ObjcWrapper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie3ObjcWrapper_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Lottie3ObjcWrapper_Tests/Pods-Lottie3ObjcWrapper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3287B8B325FB7BAB005460B1 /* demo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = demo.json; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* Lottie3ObjcWrapper_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lottie3ObjcWrapper_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,7 +65,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C8CED4C8ED234530D4552AD /* Pods-Lottie3ObjcWrapper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie3ObjcWrapper_Example.debug.xcconfig"; path = "Target Support Files/Pods-Lottie3ObjcWrapper_Example/Pods-Lottie3ObjcWrapper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9C0805F3F2F4890199241F3B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9C0805F3F2F4890199241F3B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BE10E3993BD1AAC5F6572728 /* Pods_Lottie3ObjcWrapper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lottie3ObjcWrapper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF459E2E15628E42AEA205F2 /* Pods_Lottie3ObjcWrapper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lottie3ObjcWrapper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B0EA6B8DF07C88FA3438D0 /* Pods-Lottie3ObjcWrapper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie3ObjcWrapper_Example.release.xcconfig"; path = "Target Support Files/Pods-Lottie3ObjcWrapper_Example/Pods-Lottie3ObjcWrapper_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 		6003F593195388D20070C39A /* Example for Lottie3ObjcWrapper */ = {
 			isa = PBXGroup;
 			children = (
+				3287B8B325FB7BAB005460B1 /* demo.json */,
 				6003F59C195388D20070C39A /* FAppDelegate.h */,
 				6003F59D195388D20070C39A /* FAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -193,7 +196,6 @@
 				30ABD37E0F1DB20FA93DDF11 /* Pods-Lottie3ObjcWrapper_Tests.debug.xcconfig */,
 				2B02AF46ADBE91AD121CD4AD /* Pods-Lottie3ObjcWrapper_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -280,6 +283,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				3287B8B425FB7BAC005460B1 /* demo.json in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -326,10 +330,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Lottie3ObjcWrapper_Example/Pods-Lottie3ObjcWrapper_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Lottie3ObjcWrapper/Lottie3ObjcWrapper.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie3ObjcWrapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

@@ -7,6 +7,7 @@
 //
 
 #import "FViewController.h"
+@import Lottie3ObjcWrapper;
 
 @interface FViewController ()
 
@@ -17,7 +18,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    LottieAnimationView *loader = [[LottieAnimationView alloc] initWithFrame:CGRectMake(0, 100, 300, 300)];
+    loader.loop = false;
+    [loader loadAnimationWithName:@"demo"];
+    [loader playWithCompletion:nil];
+    [self.view addSubview:loader];
 }
 
 - (void)didReceiveMemoryWarning

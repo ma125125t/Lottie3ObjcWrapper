@@ -1,0 +1,6 @@
+framework module Lottie3ObjcWrapper {
+  umbrella header "Lottie3ObjcWrapper-umbrella.h"
+
+  export *
+  module * { export * }
+}
